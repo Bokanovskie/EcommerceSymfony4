@@ -1,0 +1,8 @@
+<h1>Dashboard</h1>
+
+<h2>Products:</h2>
+
+<a href="{{ path('admin_create_product') }}">Create product</a>
+
+<h3>List product:</h3>
+{{ render(controller('App\\Controller\\Product\\ProductController::listProductsAction')) }}

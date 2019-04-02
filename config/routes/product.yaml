@@ -1,0 +1,7 @@
+admin_create_product:
+  path: /admin/product/create
+  controller: App\Controller\Product\ProductController::createProductAction
+
+list_product:
+  path: /product/list
+  controller: App\Controller\Product\ProductController::listProductsAction

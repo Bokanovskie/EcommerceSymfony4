@@ -1,0 +1,7 @@
+{% if not products is empty %}
+    {% for product in products %}
+        <a>{{ product.name }}</a>
+    {% endfor %}
+{% else %}
+    <p>No products !</p>
+{% endif %}
